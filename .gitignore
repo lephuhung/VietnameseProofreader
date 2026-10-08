@@ -1,0 +1,58 @@
+# ========== Build & Distribution ==========
+dist/
+build/
+*.spec
+*.exe
+*.zip
+
+# ========== Python ==========
+server/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# ========== Node ==========
+node_modules/
+addin/node_modules/
+
+# ========== User data (runtime-generated) ==========
+server/ignored_words.json
+server/custom_dict.json
+server/settings.json
+*.log
+
+# ========== SSL certs (nếu có) ==========
+server/certs/
+*.pem
+*.pfx
+*.key
+*.crt
+*.cer
+*.p12
+
+# ========== Office cache & temp ==========
+~$*.docx
+*.tmp
+
+# ========== Test documents ==========
+BaoCao_TestChinhTa.docx
+test_document.txt
+
+# ========== IDE & OS ==========
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+
+# ========== Agent/AI workspace ==========
+.agent/
+.claude/
+design-output.md
+server_debug.log
+
+# ========== Rendered verification ==========
+*.pdf
+page-*.jpg

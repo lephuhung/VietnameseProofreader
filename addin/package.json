@@ -1,0 +1,16 @@
+{
+  "name": "vngrammar-addin",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "office-addin-debugging start manifest.xml",
+    "stop": "office-addin-debugging stop manifest.xml"
+  },
+  "dependencies": {
+    "@microsoft/office-js": "*"
+  },
+  "devDependencies": {
+    "office-addin-debugging": "*",
+    "office-addin-manifest": "*",
+    "office-addin-dev-certs": "*"
+  }
+}
